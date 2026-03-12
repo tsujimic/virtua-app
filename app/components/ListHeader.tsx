@@ -20,23 +20,23 @@ export function ListHeader({
         onClick={onAddItems}
         className="rounded bg-blue-600 px-3 py-1 text-sm font-medium text-white hover:bg-blue-700"
       >
-        追加
+        Add 10
       </button>
       <button
         type="button"
         onClick={onAddOneItem}
         className="rounded bg-emerald-600 px-3 py-1 text-sm font-medium text-white hover:bg-emerald-700"
       >
-        1件追加
+        Add 1
       </button>
       <button
         type="button"
         onClick={onResetItems}
         className="rounded bg-gray-700 px-3 py-1 text-sm font-medium text-white hover:bg-gray-800"
       >
-        初期化
+        Reset
       </button>
-      <span className="text-sm text-gray-600">現在: {itemCount}件</span>
+      <span className="text-sm text-gray-600">Current: {itemCount} items</span>
     </div>
   );
 }
